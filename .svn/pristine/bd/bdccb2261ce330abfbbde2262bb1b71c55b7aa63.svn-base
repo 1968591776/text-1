@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.box{
+			width: 800px;
+			margin: 50px auto;
+			background: #ccc;
+		}
+		.box h1{
+			height: 200x;
+			line-height: 200px;
+			text-align: center;
+			font-size: 90px;
+			font-family: '微软雅黑';
+		}
+		.box h1:nth-child(1){
+			background: #454545;
+			
+			text-shadow: -1px -1px 0 #fff,1px 1px 0 #646464;
+		}
+		.box h1:nth-child(2){
+			background: #000;
+			color: #fff;
+			text-shadow: 0 0 5px rgba(224,0,223,1),0 0 8px rgba(224,0,223,1),0 0 15px rgba(224,0,223,1),0 0 30px rgba(224,0,223,1),0 0 50px rgba(224,0,223,1),0 0 75px rgba(224,0,223,1),0 0 100px rgba(224,0,223,1);
+		}
+		.box h1:nth-child(3){
+			background: #ddd;
+			color: #fff;
+			text-shadow: 0 5px 0 rgba(203,203,203,1),0 8px 0 rgba(185,185,185,1),0 10px 10px rgba(169,169,169,1);
+		}
+		.box h1:nth-child(4){
+			background: #eee;
+			color: transparent;
+			text-shadow: 0 0 15px rgba(250,73,117,1);
+		}
+		.box h1:nth-child(5){
+			background: #D5D2BF;
+			color: #ccc;
+			text-shadow: -2px -2px 0 rgba(61,61,53,1),2px 2px 0 rgba(255,255,255,1);
+		}
+		.box h1:nth-child(6){
+			background: #eee;
+			color: #6F7170;
+			text-shadow: -2px 0 0 rgba(12,10,156,1),2px 0 0 rgba(12,10,156,1),0 -2px 0 rgba(12,10,156,1),0 2px 0 rgba(12,10,156,1);
+		}
+		.box h1:nth-child(7){
+			background: #D5D2BF;
+			color: #D5D2BF;
+			text-shadow: -2px -2px 0 rgba(0,0,0,1),2px 2px 0 rgba(0,0,0,1),-2px 2px 0 rgba(0,0,0,1),2px -2px 0 rgba(0,0,0,1);
+		}
+		.box h1:nth-child(8){
+			background: #eee;
+			color: #FF1709;
+			text-shadow: 0 -8px 20px rgba(254,0,3,1),0 -20px 40px rgba(254,0,3,1),-1px -1px 0 rgba(208,43,49,1),1px 1px 0 rgba(208,43,49,1),-1px 1px 0 rgba(208,43,49,1),1px -1px 0 rgba(208,43,49,1);
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h1>Beautiful Text</h1>
+		<h1>Beautiful Text</h1>
+		<h1>Beautiful Text</h1>
+		<h1>Beautiful Text</h1>
+		<h1>Beautiful Text</h1>
+		<h1>Beautiful Text</h1>
+		<h1>Beautiful Text</h1>
+		<h1>Beautiful Text</h1>
+	</div>
+</body>
+</html>
